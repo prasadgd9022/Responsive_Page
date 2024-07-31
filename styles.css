@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    transition: background-color 0.3s;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #333;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.scrolled {
+    background-color: #555;
+}
+
+.content {
+    padding-top: 60px; /* To ensure content is not hidden under the navbar */
+}
+
+section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+section:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+
+section:nth-child(even) {
+    background-color: #e2e2e2;
+}
